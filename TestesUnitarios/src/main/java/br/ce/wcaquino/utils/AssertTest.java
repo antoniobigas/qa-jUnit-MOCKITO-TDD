@@ -11,7 +11,10 @@ public class AssertTest {
 		Assert.assertFalse(false);
 		
 		
-		Assert.assertEquals(1, 2);
+		Assert.assertEquals(1, 1);
+		
+		Assert.assertEquals(0.51, 0.51, 0.1);
+
 		
 	}
 
