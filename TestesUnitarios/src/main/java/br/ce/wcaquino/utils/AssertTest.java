@@ -13,7 +13,7 @@ public class AssertTest {
 		
 		Assert.assertEquals(1, 1);
 		
-		Assert.assertEquals(0.51, 0.51, 0.1);
+		Assert.assertEquals(0.51234, 0.512, 0.0001);
 
 		
 	}
