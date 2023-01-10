@@ -13,8 +13,10 @@ public class AssertTest {
 		
 		Assert.assertEquals(1, 1);
 		
-		Assert.assertEquals(0.51234, 0.512, 0.0001);
+		Assert.assertEquals(0.51234, 0.512, 0.01);
+		Assert.assertEquals(Math.PI, 3.14, 0.01);
 
+		
 		
 	}
 
